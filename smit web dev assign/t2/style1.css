@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#H {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* MAIN TABLE & CELLS */
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+td h6 {
+    font-size: 10px;
+    margin: 0;
+}
+
+td h1 {
+    font-size: 26px;
+    margin: 2px 0;
+}
+
+td p {
+    font-size: 10px;
+    margin: 0;
+}
+
+
+.H{
+   background-color: aquamarine;
+    color: aliceblue;
+}
+
+.yellow {
+    color: aliceblue;
+    background-color:yellow
+}
+.orange{
+    color:aliceblue;
+    background-color:orange;
+}
+
+.purple {
+    background-color: rgb(170, 22, 224)
+    
+}
+
+.dark {
+    background-color: rgb(37, 36, 85)
+    color(srgb rgb(253, 249, 249) rgb(245, 249, 245) rgb(250, 250, 255))
+}
+
+.grey {
+    background-color: #d9d9d9;
+    color: aliceblue; 
+}
+
+.red {
+    background-color: red;
+    color: aliceblue;
+}
+
+.blue {
+    background-color: rgb(61, 172, 252);
+    color: aliceblue;
+}
+
+.lightpurple {
+    background-color: rgb(154, 86, 242)
+    
+    
+}
+.pgreen{
+    background-color: chartreuse;
+}
+
+.sub-table td {
+    width: 90px;
+    height: 70px;
+}
+.gap {
+    height: 40px;  
+     width: 100%;
+    text-align: center;     /* centers inline-block children */
+    margin-top: 20px; 
+}
+.sub-table{
+    display: inline-block;  /* prevents full-width stretching */
+    text-align: left;  
+
+}
+.nb{
+    border: none;
+}
