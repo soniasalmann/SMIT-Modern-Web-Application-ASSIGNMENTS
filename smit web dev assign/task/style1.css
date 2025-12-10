@@ -1,0 +1,41 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .box{
+    position: absolute;
+    font-family: cursive;
+    font-size: 24px;
+
+ }
+ .box1{
+    background-color:palevioletred;
+    top: 60px;
+    left: 60px;
+     width: 500px;
+    height: 500px;
+    border:5px solid red;
+    z-index: -1;
+ }
+
+ .box2{
+    background-color: aqua;
+    top:150px ;
+    left: 150px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid white;
+    z-index: 1;
+ }
+ .box3{
+   background-color: rgb(48, 156, 48);
+   width: 400px;
+   height: 420px;
+   top:180px ;
+   left:300px ;
+   border: 5px solid green;
+   z-index: 2;
+    
+ }
