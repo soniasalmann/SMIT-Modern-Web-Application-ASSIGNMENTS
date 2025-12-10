@@ -40,7 +40,7 @@ td p {
 
 
 .H{
-   background-color: aquamarine;
+   background-color: rgb(97, 196, 163);
     color: aliceblue;
 }
 
@@ -54,37 +54,40 @@ td p {
 }
 
 .purple {
-    background-color: rgb(170, 22, 224)
+    background-color: rgb(170, 22, 224);
+    color: aliceblue;
     
 }
 
 .dark {
-    background-color: rgb(37, 36, 85)
-    color(srgb rgb(253, 249, 249) rgb(245, 249, 245) rgb(250, 250, 255))
+    background-color: rgb(37, 36, 85);
+    color: aliceblue;
 }
 
 .grey {
-    background-color: #d9d9d9;
+    background-color: #b9b5b5;
     color: aliceblue; 
 }
 
 .red {
-    background-color: red;
+    background-color: rgb(247, 67, 82);
     color: aliceblue;
 }
 
 .blue {
-    background-color: rgb(61, 172, 252);
+    background-color: rgb(99, 165, 212);
     color: aliceblue;
+    
 }
 
 .lightpurple {
-    background-color: rgb(154, 86, 242)
-    
-    
+    background-color: rgb(154, 86, 242);
+    color: aliceblue;
+
 }
 .pgreen{
     background-color: chartreuse;
+    color: aliceblue;
 }
 
 .sub-table td {
@@ -104,4 +107,11 @@ td p {
 }
 .nb{
     border: none;
+}
+.redp{
+    background-color: rgb(236, 15, 89);
+    color: aliceblue;
+}
+#Hy{
+    color: navy;
 }
