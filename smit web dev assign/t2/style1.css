@@ -1,117 +1,89 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-#H {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-/* MAIN TABLE & CELLS */
-table {
-    border-collapse: collapse;
-    margin: auto;
-}
-
-td {
-    width: 90px;
-    height: 90px;
-    text-align: center;
-    vertical-align: top;
-    padding: 5px;
-    border: 1px solid black;
-}
-
-td h6 {
-    font-size: 10px;
+*
+{
     margin: 0;
-}
-
-td h1 {
-    font-size: 26px;
-    margin: 2px 0;
-}
-
-td p {
-    font-size: 10px;
-    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-.H{
-   background-color: rgb(97, 196, 163);
-    color: aliceblue;
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hyd{
+    text-align: center;
+    color:white;
+    background-color: rgb(71, 218, 144);
 }
 
-.yellow {
-    color: aliceblue;
-    background-color:yellow
+table{
+    border: none;
+    
 }
+
+.yellow{
+    
+    background-color: rgb(247, 247, 80);
+    text-align: center;
+    color: white;
+}
+
 .orange{
-    color:aliceblue;
-    background-color:orange;
+    background-color: rgb(240, 170, 41);
+    text-align: center;
+    color: white;
 }
 
-.purple {
-    background-color: rgb(170, 22, 224);
+.darkblue{
+    background-color: rgb(86, 86, 231);
+    text-align: center;
+    color: white;
+}
+
+.gray{
+    background-color: rgb(175, 171, 171);
+    text-align: center;
+    color: white;
+}
+
+.black{
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    color: white;
+}
+
+.red{
+    background-color: rgb(238, 50, 50);
+    text-align: center;
+    color: white;
+
+}
+
+.blue{
+    background-color: rgb(60, 196, 241);
+    text-align: center;
+    color: white;
+}
+
+.purple{
+    background-color: rgb(230, 56, 230);
+    text-align: center;
+    color: white;
+}
+.green{
+    background-color:chartreuse ;
+    text-align: center;
     color: aliceblue;
-    
 }
 
-.dark {
-    background-color: rgb(37, 36, 85);
-    color: aliceblue;
-}
-
-.grey {
-    background-color: #b9b5b5;
-    color: aliceblue; 
-}
-
-.red {
-    background-color: rgb(247, 67, 82);
-    color: aliceblue;
-}
-
-.blue {
-    background-color: rgb(99, 165, 212);
-    color: aliceblue;
-    
-}
-
-.lightpurple {
-    background-color: rgb(154, 86, 242);
-    color: aliceblue;
-
-}
-.pgreen{
-    background-color: chartreuse;
-    color: aliceblue;
-}
-
-.sub-table td {
-    width: 90px;
-    height: 70px;
-}
-.gap {
-    height: 40px;  
-     width: 100%;
-    text-align: center;     /* centers inline-block children */
-    margin-top: 20px; 
-}
-.sub-table{
-    display: inline-block;  /* prevents full-width stretching */
-    text-align: left;  
-
-}
 .nb{
     border: none;
 }
-.redp{
-    background-color: rgb(236, 15, 89);
-    color: aliceblue;
+.nv{
+    border: none;
+    height: 20px;
 }
-#Hy{
-    color: navy;
+b{
+    font-size: 20px;
 }
